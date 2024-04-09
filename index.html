@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      padding-top: 70px;
+      background-color: black;
+    }
+
+    .explore:hover .text-wrapper {
+      color: black;
+    }
+
+    .explore .text-wrapper {
+      display: inline-block;
+      position: relative;
+      top: 0.5em;
+    }
+
+    .gu-youlong:hover, .he-yu:hover, .lan-lingsheng:hover {
+      opacity: 0.5;
+    }
+
+    .SURVEY-LINK-wrapper .text-wrapper-10 {
+      transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    .SURVEY-LINK-wrapper:hover .text-wrapper-10 {
+      transform: scale(1.3);
+      opacity: 0.7;
+    }
+
+    .slide {
+      transform: scale(1); 
+    }
+  </style>
+  <script>
+    window.addEventListener('scroll', function() {
+      var image = document.querySelector('.fade-on-scroll');
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      var opacity = 1 - (scrollTop / 900); 
+
+      if (opacity >= 0) {
+        image.style.opacity = opacity;
+      } else {
+        image.style.opacity = 0;
+      }
+    });
+  </script>
+</head>
+<body>
+  <div class="slide">
+    <div class="div">
+      <div class="overlap">
+        <img class="image fade-on-scroll" src="image-5.png" />
+        <a href="https://arcg.is/1CG9zO0" target="_blank" rel="noopener noreferrer">
+          <div class="group"><div class="group-2"></div></div>
+        </a>
+        <div class="explore">
+          <a href="https://arcg.is/1CG9zO0" class="text-wrapper" target="_blank" rel="noopener noreferrer">Explore</a>
+        </div>
+      </div>
+      <div class="overlap-group">
+        <div class="text-wrapper-2">Reshaping Commuter Trends</div>
+        <p class="the-pandemic-s">
+          The Pandemic's Transformative Effect on Singapore's MRT Ridership and Residents’ Perception
+        </p>
+        <img class="line" src="line-12.svg" />
+      </div>
+      <div class="overlap-2">
+        <div class="text-wrapper-3">Researchers</div>
+        <div class="gu-youlong">
+          <a href="https://www.linkedin.com/in/youlong-gu-238096285/" target="_blank" rel="noopener noreferrer">
+            <div class="text-wrapper-4">Gu Youlong</div>
+          </a>
+        </div>
+      </div>
+      <div class="overlap-3">
+        <div class="text-wrapper-5">Social Media</div>
+        <img class="img" src="image-11.png" />
+        <p class="p">
+          We are a team of researchers from the National University of Singapore working on urban mobility, urban
+          intelligence, and new urban analytics and crowdsourcing engagement channels.
+        </p>
+      </div>
+      <div class="text-wrapper-6">Address</div>
+      <div class="overlap-4">
+        <div class="text-wrapper-7">Background</div>
+        <p class="the-COVID">
+          The COVID-19 pandemic has sent shockwaves through cities globally, triggering multifaceted disruptions
+          across every facet of urban life. One of the most conspicuous consequences has been the significant downturn
+          in public transportation ridership, with commuters worldwide reevaluating their travel habits in light of
+          health and safety concerns.<br />In response to this paradigm shift, our study embarks on a comprehensive
+          examination of the impact of COVID-19 on MRT travel behavior across various planning areas in Singapore.
+        </p>
+      </div>
+      <div class="overlap-5">
+        <div class="text-wrapper-7">Objective</div>
+        <p class="analyze-the-epidemic">
+          Analyze the epidemic's impact on Singapore's subway usage, focusing on passenger flow changes,
+          demographic shifts, and geographical factors before and after the epidemic.<br /><br />Examine cognitive
+          biases and social psychological influences on subway safety perceptions and usage behavior during the
+          epidemic, utilizing survey data and observations.
+        </p>
+      </div>
+      <div class="overlap-group-2">
+        <div class="text-wrapper-8">Singapore MRT map</div>
+        <div class="MAP"></div>
+      </div>
+      <div class="overlap-6">
+        <div class="text-wrapper-9">Welcome to participate in!</div>
+        <a href="https://nus.syd1.qualtrics.com/jfe/form/SV_7WN18CAicprPWPs" target="_blank" rel="noopener noreferrer">
+          <p class="the-project-also">
+            The project also aims to explore the bias between the public's perception and actuality of subway
+            traffic, and you are welcome to participate in the survey at any time via the link!
+          </p>
+        </a>
+      </div>
+      <div class="SURVEY-LINK-wrapper">
+        <a href="https://nus.syd1.qualtrics.com/jfe/form/SV_7WN18CAicprPWPs" target="_blank" rel="noopener noreferrer">
+          <div class="SURVEY-LINK"><div class="text-wrapper-10">SURVEY LINK</div></div>
+        </a>
+      </div>
+      <div class="flexcontainer">
+        <p class="text">
+          <span class="span">National University of Singapore<br /></span>
+        </p>
+        <p class="text"><span class="span">21 Lower Kent Ridge Rd, Singapore 119077</span></p>
+      </div>
+      <img class="line-2" src="line-15.svg" />
+      <img class="line-3" src="line-15.svg" />
+      <img class="image-2" src="image-10.png" />
+      <div class="he-yu">
+        <a href="https://www.linkedin.com/in/yu-he-8171612b1/" target="_blank" rel="noopener noreferrer">
+          <div class="text-wrapper-4">He Yu</div>
+        </a>
+      </div>
+      <div class="lan-lingsheng">
+        <a href="https://www.linkedin.com/in/%E7%BE%9A%E5%8D%87-%E8%93%9D-2b4a602b5/" target="_blank" rel="noopener noreferrer">
+          <div class="text-wrapper-11">Lan Lingsheng</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
